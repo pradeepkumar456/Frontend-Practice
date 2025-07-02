@@ -1,51 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <div class="nav-logo">
+          <i class="fa-solid fa-clover" style="color: #fff;"></i>
+          <!-- <img src="" alt="Logo" /> -->
+          <a href="#">Abstract</a>
+          <a href="#">| Help Center</a>
+        </div>
+        <div class="nav-item mx-5">
+          <input type="text" placeholder="Search" id="search_input" />
+          <button class="btn btn-outline-secondary">Submit a request</button>
+          <button class="btn Signin">Sign in</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section row">
+        <div class="hero-content col-md-12 col-sm-12">
+          <h1 id="hero_heading" class="text-center">How can we help?</h1>
+          <input placeholder="Search " type="text" id="search" />
+        </div>
+      </section>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+      <section class="content_container mt-5">
+        <div class="container">
+          <div class="container-item">
+            <h4>Using Abstract</h4>
+            Abstract lets you manage, version, and document your designs in one
+            place.
+            <p><a href="#">Learn More → </a></p>
+          </div>
+          <div class="container-item">
+            <h4>Manage your account</h4>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+            Configure your account settings, such as your email, profile
+            details, and password.
+            <p><a href="#"> Learn More →</a></p>
+          </div>
+          <div class="container-item">
+            <h4>Manage organizations, teams, and projects</h4>
 
-    .card{
-      font-size: 11px;
-      text-align: center;
-      border: 2px solid hsl(0, 0%, 80%);
-      height: 350px;
-      width: 300px;
-      border-radius: 5%;
-      padding: 0.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 20px auto;
-    }
-    .card img {
-      width: 100%;
-      height: 70%;
-      background-color: hsl(0, 0%, 80%);
-      border: 1px solid hsl(0, 89%, 42%);
-      border-radius: 5%;
-    }
+            Use Abstract organizations, teams, and projects to organize your
+            people and your work.
+            <p><a href="#">Learn More →</a></p>
+          </div>
+          <div class="container-item">
+            <h4>Manage billing</h4>
+            Manage billing Change subscriptions and payment details.
+            <p><a href="#">Learn More →</a></p>
+          </div>
+          <div class="container-item">
+            <h4>Using Abstract</h4>
+            Abstract lets you manage, version, and document your designs in one
+            place.
+            <p><a href="#">Learn More → </a></p>
+          </div>
+          <div class="container-item">
+            <h4>Using Abstract</h4>
+            Authenticate to Abstract Set up and configure SSO, SCIM, and
+            Just-in-Time provisioning.
+            <p><a href="#">Learn More →</a></p>
+          </div>
+          <div class="container-item">
+            <h4>Authenticate to Abstract</h4>
 
-    .card h2 p {
-      text-align: center ;
-    }
-  </style>
-</head>
-<body>
-<h1>Challenge One </h1>
-<div class="card">
-  <img src="image-qr-code.png" alt="QR Code">
-  <h2>Improve your frontend skills and building projects</h2>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-</div>
-</body>
+            Set up and configure SSO, SCIM, and Just-in-Time provisioning.
+            place.
+            <p><a href="#">Learn More → </a></p>
+          </div>
+          <div class="container-item">
+            <h4>Abstract support</h4>
+            Abstract support Get in touch with a human.
+
+            <p><a href="#">Learn More → </a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer_container">
+        <div class="footer_item">
+          <h5>Abstract</h5>
+          <a href="#">Start</a>
+          <a href="#">Start</a>
+          <a href="#">Pricing</a>
+          <a href="#">Download</a>
+        </div>
+        <div class="footer_item">
+          <h5>Resources</h5>
+          <a href="#">Blog</a>
+
+          <a href="#">Help</a>
+          <a href="#">Center</a>
+          <a href="#">Release</a>
+        </div>
+        <div class="footer_item">
+          <h5>Community</h5>
+          <a href="#">Twitter</a>
+          <a href="#">Linkedin</a>
+          <a href="#">Youtube</a>
+          <a href="#">Facebook</a>
+        </div>
+        <div class="footer_item">
+          <h5>About Us </h5>
+          <a href="#">Company</a>
+          <a href="#">Legal</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
