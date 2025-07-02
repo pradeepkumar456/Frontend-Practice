@@ -1,0 +1,19 @@
+
+/* body{
+    background-color: aqua;
+} */
+
+.row{
+    display: flex;
+    justify-content: flex-start;
+}
+.div{
+    height: 200px !important;
+    width: 200px !important;
+    border: 1px solid black;
+    margin:auto;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 10%;
+}
